@@ -1,5 +1,5 @@
 import type { BootConfigPreferenceKeys } from '@shared/data/bootConfig/bootConfigTypes'
-import type { ShortcutBinding } from '@shared/shortcuts/tokens'
+import type { ShortcutBinding } from '@shared/utils/shortcut'
 import * as z from 'zod'
 
 import type { PreferenceSchemas } from './preferenceSchemas'
@@ -245,7 +245,7 @@ export const CODE_CLI_IDS = Object.values(codeCLI) as unknown as readonly [
   'claude-code',
   'gemini-cli',
   'openai-codex',
-  'iflow-cli',
+  'qoder-cli',
   'github-copilot-cli',
   'kimi-cli',
   'opencode'
